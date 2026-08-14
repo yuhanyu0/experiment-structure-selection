@@ -30,20 +30,24 @@
   <text x="990" y="178" text-anchor="middle" class="body">8 sealed seeds per family</text>
   <text x="990" y="208" text-anchor="middle" class="body">all registered gates PASS</text>
   <text x="990" y="238" text-anchor="middle" class="small">search/evaluation registries disjoint</text>
+
   <rect x="70" y="330" width="320" height="135" class="box"/>
   <text x="230" y="362" text-anchor="middle" class="head">ONE_STEP_SUFFICIENT</text>
   <text x="230" y="396" text-anchor="middle" class="body">depth 1 + final_state</text>
   <text x="230" y="428" text-anchor="middle" class="head">8 / 8</text>
   <text x="230" y="451" text-anchor="middle" class="small">do not invent extra complexity</text>
+
   <rect x="440" y="330" width="320" height="135" class="box"/>
   <text x="600" y="362" text-anchor="middle" class="head">COMPOSITION_REQUIRED</text>
   <text x="600" y="396" text-anchor="middle" class="body">depth 3 + final_state</text>
   <text x="600" y="428" text-anchor="middle" class="head">8 / 8</text>
   <text x="600" y="451" text-anchor="middle" class="small">multistep depth is the bottleneck</text>
+
   <rect x="810" y="330" width="320" height="135" class="box"/>
   <text x="970" y="362" text-anchor="middle" class="head">READOUT_REQUIRED</text>
   <text x="970" y="396" text-anchor="middle" class="body">depth 1 + microshape</text>
   <text x="970" y="428" text-anchor="middle" class="head">8 / 8</text>
   <text x="970" y="451" text-anchor="middle" class="small">observation richness is the bottleneck</text>
+
   <text x="600" y="520" text-anchor="middle" class="small">Synthetic controlled-method result · no global minimality · no natural mechanism claim · literature novelty not established</text>
 </svg>
