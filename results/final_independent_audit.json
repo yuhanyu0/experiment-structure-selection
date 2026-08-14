@@ -1,0 +1,202 @@
+{
+  "audit_version": "MESA2-FINAL-INDEPENDENT-AUDIT-v1.0",
+  "protocol_version": "MESA-2-v1.0.0",
+  "formal_decision": "PASS_MESA2_GEOMETRY_SELECTS_EXPERIMENT_STRUCTURE",
+  "execution_integrity": {
+    "return_code": 0,
+    "final_zip_sha256": "3cfe91830e72ae3dead4edb6ecdbd9d7befdbe779f77082e767628a58e425c25",
+    "zip_crc_pass": true,
+    "manifest_entries": 10,
+    "manifest_all_pass": true,
+    "marker_completed": true,
+    "runner_code_sha256": "aa8ca42b1dbae1aee113da984a512a5b7e1c66eaa7adff6d005f264d7ff3ecc7",
+    "development_zip_sha256": "dea50eed012a2620ebb74ff55d3e6a8a6b6daf89b6ae44016540d029c9b450a6",
+    "runtime_versions": {
+      "python": "3.13.5",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3"
+    }
+  },
+  "final_gates": {
+    "initial_alias_exact": true,
+    "one_step_structure": true,
+    "composition_structure": true,
+    "composition_vs_depth1": true,
+    "composition_vs_random": true,
+    "composition_vs_fixed": true,
+    "readout_structure": true,
+    "readout_vs_final_only": true,
+    "readout_vs_random": true,
+    "all_pass": true
+  },
+  "initial_alias_maximum": 2.220446049250313e-16,
+  "first_program_patterns": {
+    "ONE_STEP_SUFFICIENT": {
+      "depth_counts": {
+        "1": 8
+      },
+      "bundle_counts": {
+        "final_state": 8
+      }
+    },
+    "COMPOSITION_REQUIRED": {
+      "depth_counts": {
+        "3": 8
+      },
+      "bundle_counts": {
+        "final_state": 8
+      }
+    },
+    "READOUT_REQUIRED": {
+      "depth_counts": {
+        "1": 8
+      },
+      "bundle_counts": {
+        "microshape": 8
+      }
+    }
+  },
+  "method_comparisons": [
+    {
+      "family": "ONE_STEP_SUFFICIENT",
+      "left": "FULL",
+      "right": "DEPTH1",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 0.0026687168749342303,
+      "mean_right": 0.009752947705097782,
+      "median_ratio": 0.27378152966341174
+    },
+    {
+      "family": "ONE_STEP_SUFFICIENT",
+      "left": "FULL",
+      "right": "FINAL_STATE_ONLY",
+      "wins": 2,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.96484375,
+      "mean_left": 0.0026687168749342303,
+      "mean_right": 0.002708526598978149,
+      "median_ratio": 1.0
+    },
+    {
+      "family": "ONE_STEP_SUFFICIENT",
+      "left": "FULL",
+      "right": "FIXED",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 0.0026687168749342303,
+      "mean_right": 0.011693818482261021,
+      "median_ratio": 0.184041575731899
+    },
+    {
+      "family": "ONE_STEP_SUFFICIENT",
+      "left": "FULL",
+      "right": "RANDOM_MEDIAN",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 0.0026687168749342303,
+      "mean_right": 0.2751070454588417,
+      "median_ratio": 0.0062219833647306835
+    },
+    {
+      "family": "COMPOSITION_REQUIRED",
+      "left": "FULL",
+      "right": "DEPTH1",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 0.17346192132498178,
+      "mean_right": 0.5827695882177673,
+      "median_ratio": 0.22461684709764357
+    },
+    {
+      "family": "COMPOSITION_REQUIRED",
+      "left": "FULL",
+      "right": "FINAL_STATE_ONLY",
+      "wins": 0,
+      "n": 8,
+      "exact_one_sided_sign_p": 1.0,
+      "mean_left": 0.17346192132498178,
+      "mean_right": 0.1711879010539626,
+      "median_ratio": 1.0
+    },
+    {
+      "family": "COMPOSITION_REQUIRED",
+      "left": "FULL",
+      "right": "FIXED",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 0.17346192132498178,
+      "mean_right": 0.3798385858548179,
+      "median_ratio": 0.32828289490843937
+    },
+    {
+      "family": "COMPOSITION_REQUIRED",
+      "left": "FULL",
+      "right": "RANDOM_MEDIAN",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 0.17346192132498178,
+      "mean_right": 0.5594163500537142,
+      "median_ratio": 0.23965273058020697
+    },
+    {
+      "family": "READOUT_REQUIRED",
+      "left": "FULL",
+      "right": "DEPTH1",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 4.3998762369513406e-05,
+      "mean_right": 0.0005253831166242863,
+      "median_ratio": 0.043708744314338646
+    },
+    {
+      "family": "READOUT_REQUIRED",
+      "left": "FULL",
+      "right": "FINAL_STATE_ONLY",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 4.3998762369513406e-05,
+      "mean_right": 2.9427419608339687,
+      "median_ratio": 6.752521769209563e-10
+    },
+    {
+      "family": "READOUT_REQUIRED",
+      "left": "FULL",
+      "right": "FIXED",
+      "wins": 7,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.03515625,
+      "mean_left": 4.3998762369513406e-05,
+      "mean_right": 0.004219802192625859,
+      "median_ratio": 0.010539486605659211
+    },
+    {
+      "family": "READOUT_REQUIRED",
+      "left": "FULL",
+      "right": "RANDOM_MEDIAN",
+      "wins": 8,
+      "n": 8,
+      "exact_one_sided_sign_p": 0.00390625,
+      "mean_left": 4.3998762369513406e-05,
+      "mean_right": 0.7663366989004897,
+      "median_ratio": 4.118895952137611e-09
+    }
+  ],
+  "claim_ceiling": "Synthetic evidence-based experiment-structure selection within the declared families, grammar and held registry.",
+  "limitations": [
+    "The result is confined to three engineered synthetic source families.",
+    "The mechanism version space contains 32 exact candidates per seed.",
+    "The geometry score is a moment-Gaussian approximation.",
+    "Evidence updates use the exact target mean under a declared likelihood.",
+    "The method is greedy and does not prove globally minimal experiments.",
+    "Literature novelty remains unestablished."
+  ]
+}

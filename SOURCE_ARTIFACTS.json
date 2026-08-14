@@ -1,0 +1,37 @@
+{
+  "final_execution_integrity": {
+    "manifest_all_pass": true,
+    "manifest_entries": 10,
+    "marker_completed": true,
+    "return_code": 0,
+    "zip_crc_pass": true
+  },
+  "locked_but_not_redistributed": {
+    "development_zip_sha256": "dea50eed012a2620ebb74ff55d3e6a8a6b6daf89b6ae44016540d029c9b450a6",
+    "final_zip_sha256": "3cfe91830e72ae3dead4edb6ecdbd9d7befdbe779f77082e767628a58e425c25",
+    "runner_code_composite_sha256": "aa8ca42b1dbae1aee113da984a512a5b7e1c66eaa7adff6d005f264d7ff3ecc7"
+  },
+  "protocol_version": "MESA-2-v1.0.0",
+  "redistributed_frozen_files": {
+    "MESA2_BUILD_VALIDATION.json": {
+      "bytes": 1272,
+      "sha256": "a2deb155e97dd4276767679c45a5377697d1c9bde15c5ff3c90351f0e334c291"
+    },
+    "MESA2_ENGINEERING_HISTORY.md": {
+      "bytes": 375,
+      "sha256": "c03860930358cf5a50562f1065ebece52a493f5fdfb50738512f938f451de68c"
+    },
+    "MESA2_FINAL_CLAIM_CARD.md": {
+      "bytes": 655,
+      "sha256": "a69bb36b33ebbbcc7c4b62fd9caef78c8709b02591857f86527ed2990a74585c"
+    },
+    "MESA2_PROTOCOL.md": {
+      "bytes": 1916,
+      "sha256": "2b11c07aa0ece27638e5dd6c00ffbf83ce4cc7366a144642d9f008e647f244f5"
+    },
+    "final_independent_audit.json": {
+      "bytes": 5779,
+      "sha256": "961c0409d5cf0a53b18e75c18ddd328aee717fe719ae4c32837486472cda244f"
+    }
+  }
+}

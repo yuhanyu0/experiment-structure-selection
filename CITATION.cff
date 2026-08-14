@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite it."
+title: "Experiment-Structure Selection under Mechanism Equivalence"
+type: software
+authors:
+  - family-names: "Yu"
+    given-names: "Hanyu"
+version: "0.1.0-artifact"
+date-released: 2026-08-14
+abstract: >-
+  Curated synthetic controlled-method artifact for evidence-conditioned selection
+  of experiment structure under mechanism equivalence.

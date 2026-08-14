@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <rect width="1200" height="560" fill="white"/>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .title { font-size: 30px; font-weight: 700; }
+    .sub { font-size: 18px; }
+    .box { fill: #f7f7f7; stroke: #222; stroke-width: 2; rx: 12; }
+    .head { font-size: 19px; font-weight: 700; }
+    .body { font-size: 16px; }
+    .small { font-size: 14px; fill: #333; }
+    .arrow { stroke: #222; stroke-width: 2.5; marker-end: url(#arrow); }
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#222"/></marker></defs>
+  <text x="600" y="48" text-anchor="middle" class="title">Which part of the next experiment must become richer?</text>
+  <text x="600" y="78" text-anchor="middle" class="sub">All surviving mechanisms match the initial coarse evidence; MESA-2 selects experiment structure from the remaining equivalence class.</text>
+  <rect x="70" y="125" width="290" height="140" class="box"/>
+  <text x="215" y="157" text-anchor="middle" class="head">Current evidence</text>
+  <text x="215" y="190" text-anchor="middle" class="body">mechanism candidates aliased</text>
+  <text x="215" y="220" text-anchor="middle" class="body">max difference = 2.22e-16</text>
+  <text x="215" y="245" text-anchor="middle" class="small">finite surviving version space</text>
+  <line x1="360" y1="195" x2="455" y2="195" class="arrow"/>
+  <rect x="455" y="125" width="290" height="140" class="box"/>
+  <text x="600" y="157" text-anchor="middle" class="head">Evidence-conditioned selector</text>
+  <text x="600" y="190" text-anchor="middle" class="body">context + intervention word</text>
+  <text x="600" y="218" text-anchor="middle" class="body">+ observation bundle + cost</text>
+  <text x="600" y="245" text-anchor="middle" class="small">posterior-predictive geometry</text>
+  <line x1="745" y1="195" x2="840" y2="195" class="arrow"/>
+  <rect x="840" y="115" width="300" height="160" class="box"/>
+  <text x="990" y="147" text-anchor="middle" class="head">Frozen Final</text>
+  <text x="990" y="178" text-anchor="middle" class="body">8 sealed seeds per family</text>
+  <text x="990" y="208" text-anchor="middle" class="body">all registered gates PASS</text>
+  <text x="990" y="238" text-anchor="middle" class="small">search/evaluation registries disjoint</text>
+  <rect x="70" y="330" width="320" height="135" class="box"/>
+  <text x="230" y="362" text-anchor="middle" class="head">ONE_STEP_SUFFICIENT</text>
+  <text x="230" y="396" text-anchor="middle" class="body">depth 1 + final_state</text>
+  <text x="230" y="428" text-anchor="middle" class="head">8 / 8</text>
+  <text x="230" y="451" text-anchor="middle" class="small">do not invent extra complexity</text>
+  <rect x="440" y="330" width="320" height="135" class="box"/>
+  <text x="600" y="362" text-anchor="middle" class="head">COMPOSITION_REQUIRED</text>
+  <text x="600" y="396" text-anchor="middle" class="body">depth 3 + final_state</text>
+  <text x="600" y="428" text-anchor="middle" class="head">8 / 8</text>
+  <text x="600" y="451" text-anchor="middle" class="small">multistep depth is the bottleneck</text>
+  <rect x="810" y="330" width="320" height="135" class="box"/>
+  <text x="970" y="362" text-anchor="middle" class="head">READOUT_REQUIRED</text>
+  <text x="970" y="396" text-anchor="middle" class="body">depth 1 + microshape</text>
+  <text x="970" y="428" text-anchor="middle" class="head">8 / 8</text>
+  <text x="970" y="451" text-anchor="middle" class="small">observation richness is the bottleneck</text>
+  <text x="600" y="520" text-anchor="middle" class="small">Synthetic controlled-method result · no global minimality · no natural mechanism claim · literature novelty not established</text>
+</svg>

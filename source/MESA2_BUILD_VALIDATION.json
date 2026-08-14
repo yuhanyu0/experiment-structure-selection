@@ -1,0 +1,33 @@
+{
+  "protocol_version": "MESA-2-v1.0.0",
+  "status": "PASS_MESA2_RUNNER_BUILD_VALIDATION",
+  "python_syntax": "PASS",
+  "self_test_decision": "PASS_MESA2_SELF_TEST",
+  "development_decision": "PASS_MESA2_DEVELOPMENT_FINAL_LICENSED",
+  "development_final_licensed": true,
+  "development_gates": {
+    "initial_alias_exact": true,
+    "one_step_depth1_7_of_8": true,
+    "one_step_final_state_7_of_8": true,
+    "composition_multistep_7_of_8": true,
+    "composition_full_beats_depth1": true,
+    "readout_depth1_7_of_8": true,
+    "readout_microshape_7_of_8": true,
+    "readout_full_beats_final_only": true,
+    "all_pass": true
+  },
+  "runner_code_sha256": "aa8ca42b1dbae1aee113da984a512a5b7e1c66eaa7adff6d005f264d7ff3ecc7",
+  "development_zip_sha256": "dea50eed012a2620ebb74ff55d3e6a8a6b6daf89b6ae44016540d029c9b450a6",
+  "manifest_entries": 13,
+  "manifest_all_pass": true,
+  "search_eval_word_disjoint": true,
+  "search_eval_context_disjoint": true,
+  "selected_physical_programs_unique": true,
+  "physical_cost_budget_valid": true,
+  "budget_endpoint_metrics_match": true,
+  "random_policies_per_family_seed": 32,
+  "random_policy_count_valid": true,
+  "sealed_final_seeds_absent": true,
+  "official_final_execution_run": false,
+  "novelty_claim_established": false
+}

@@ -1,0 +1,77 @@
+{
+  "artifact_version": "0.1.0-public",
+  "files": {
+    ".github/workflows/validate-artifact.yml": {
+      "bytes": 285,
+      "sha256": "c23f84f9c77b16e11f7dcbb6aee62a24b572fbc1c75963a97408f356f543c721"
+    },
+    ".gitignore": {
+      "bytes": 36,
+      "sha256": "f1bb8745e827993437963d477a5ee256ca6a098946da514125ce8c0373fc0b51"
+    },
+    "CITATION.cff": {
+      "bytes": 423,
+      "sha256": "d28369c684e69b81c190355ade86a10c0fb17195ce366d20bc72df362de7d6a6"
+    },
+    "CLAIM_BOUNDARY.md": {
+      "bytes": 2360,
+      "sha256": "649effacfadcabba226bfdebaee50e63d9dd2f782bd7f50a586ea5acf789c777"
+    },
+    "LICENSE_DECISION.md": {
+      "bytes": 613,
+      "sha256": "412f4e5d473c994afce9df3864d7dc32746268d3f28fc975ffc131c1006cbc3b"
+    },
+    "LITERATURE_BOUNDARY.md": {
+      "bytes": 1432,
+      "sha256": "72adeeea47ec9854ef2207e9ba7dc7953996518dbe9855edec01647af634a72f"
+    },
+    "METHODS.md": {
+      "bytes": 2483,
+      "sha256": "754e7b26a0fb8df04ae8baeacb071283e90844eb0362ade7620c28afe095d189"
+    },
+    "README.md": {
+      "bytes": 5726,
+      "sha256": "f1fbdebfb7f5532e18da6c8bd695116b2287b5d41e0ba5a3da0548357ba115d2"
+    },
+    "REPRODUCIBILITY.md": {
+      "bytes": 1729,
+      "sha256": "4d058e7f61cf853d12fc613f026ca95269880139cb3ae6c80faa14201fcc25cd"
+    },
+    "SOURCE_ARTIFACTS.json": {
+      "bytes": 1316,
+      "sha256": "894ac0cc259e07df83942617558ee8039977444ecdf842e807f49677446da1ce"
+    },
+    "figures/overview.svg": {
+      "bytes": 3871,
+      "sha256": "6dea19320ebcd9a661238eabbaed8b001905ecea0e368ca2513c36efcb7a3e01"
+    },
+    "results/final_independent_audit.json": {
+      "bytes": 5779,
+      "sha256": "961c0409d5cf0a53b18e75c18ddd328aee717fe719ae4c32837486472cda244f"
+    },
+    "results/frozen_summary.json": {
+      "bytes": 3022,
+      "sha256": "33aa02dfa0d50ac5d430c1cb23844120ca9298e90cd866981be40e26dd4a7c91"
+    },
+    "scripts/validate_artifact.py": {
+      "bytes": 4997,
+      "sha256": "ca15427df8527babbc78ee669ae5ea99fef3bfddf2fe7ab20c5d9074091ad2c2"
+    },
+    "source/MESA2_BUILD_VALIDATION.json": {
+      "bytes": 1272,
+      "sha256": "a2deb155e97dd4276767679c45a5377697d1c9bde15c5ff3c90351f0e334c291"
+    },
+    "source/MESA2_ENGINEERING_HISTORY.md": {
+      "bytes": 375,
+      "sha256": "c03860930358cf5a50562f1065ebece52a493f5fdfb50738512f938f451de68c"
+    },
+    "source/MESA2_FINAL_CLAIM_CARD.md": {
+      "bytes": 655,
+      "sha256": "a69bb36b33ebbbcc7c4b62fd9caef78c8709b02591857f86527ed2990a74585c"
+    },
+    "source/MESA2_PROTOCOL.md": {
+      "bytes": 1916,
+      "sha256": "2b11c07aa0ece27638e5dd6c00ffbf83ce4cc7366a144642d9f008e647f244f5"
+    }
+  }
+}
