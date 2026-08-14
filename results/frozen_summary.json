@@ -1,0 +1,105 @@
+{
+  "artifact_version": "0.1.0-public",
+  "claim_ceiling": "Synthetic evidence-based experiment-structure selection within the declared families, grammar and held registry.",
+  "first_program_patterns": {
+    "COMPOSITION_REQUIRED": {
+      "bundle_counts": {
+        "final_state": 8
+      },
+      "depth_counts": {
+        "3": 8
+      }
+    },
+    "ONE_STEP_SUFFICIENT": {
+      "bundle_counts": {
+        "final_state": 8
+      },
+      "depth_counts": {
+        "1": 8
+      }
+    },
+    "READOUT_REQUIRED": {
+      "bundle_counts": {
+        "microshape": 8
+      },
+      "depth_counts": {
+        "1": 8
+      }
+    }
+  },
+  "formal_decision": "PASS_MESA2_GEOMETRY_SELECTS_EXPERIMENT_STRUCTURE",
+  "headline_comparisons": {
+    "composition_full_vs_depth1": {
+      "exact_one_sided_sign_p": 0.00390625,
+      "family": "COMPOSITION_REQUIRED",
+      "left": "FULL",
+      "mean_left": 0.17346192132498178,
+      "mean_right": 0.5827695882177673,
+      "median_ratio": 0.22461684709764357,
+      "n": 8,
+      "right": "DEPTH1",
+      "wins": 8
+    },
+    "composition_full_vs_random": {
+      "exact_one_sided_sign_p": 0.00390625,
+      "family": "COMPOSITION_REQUIRED",
+      "left": "FULL",
+      "mean_left": 0.17346192132498178,
+      "mean_right": 0.5594163500537142,
+      "median_ratio": 0.23965273058020697,
+      "n": 8,
+      "right": "RANDOM_MEDIAN",
+      "wins": 8
+    },
+    "one_step_full_vs_final_state_only": {
+      "exact_one_sided_sign_p": 0.96484375,
+      "family": "ONE_STEP_SUFFICIENT",
+      "left": "FULL",
+      "mean_left": 0.0026687168749342303,
+      "mean_right": 0.002708526598978149,
+      "median_ratio": 1.0,
+      "n": 8,
+      "right": "FINAL_STATE_ONLY",
+      "wins": 2
+    },
+    "readout_full_vs_final_state_only": {
+      "exact_one_sided_sign_p": 0.00390625,
+      "family": "READOUT_REQUIRED",
+      "left": "FULL",
+      "mean_left": 4.3998762369513406e-05,
+      "mean_right": 2.9427419608339687,
+      "median_ratio": 6.752521769209563e-10,
+      "n": 8,
+      "right": "FINAL_STATE_ONLY",
+      "wins": 8
+    }
+  },
+  "initial_alias_maximum": 2.220446049250313e-16,
+  "interpretation_flags": {
+    "external_transfer_run": false,
+    "global_minimality_established": false,
+    "literature_novelty_established": false,
+    "natural_mechanism_identification_established": false,
+    "synthetic_controlled_method_result": true,
+    "universal_grammar_established": false
+  },
+  "limitations": [
+    "The result is confined to three engineered synthetic source families.",
+    "The mechanism version space contains 32 exact candidates per seed.",
+    "The geometry score is a moment-Gaussian approximation.",
+    "Evidence updates use the exact target mean under a declared likelihood.",
+    "The method is greedy and does not prove globally minimal experiments.",
+    "Literature novelty remains unestablished."
+  ],
+  "protocol_version": "MESA-2-v1.0.0",
+  "sealed_final_seeds": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+  ]
+}
